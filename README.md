@@ -1,6 +1,6 @@
 # HR_Management
 About me and This Repository:
-I am Sina Yar and I have been learning ... and ... and ... for several days and I thought it would be good to share my experiences while learning it with you. This will surely help you to learn the concepts better
+I am Sina Yar and I have been learning Clean Architecture and SOLID and CQRS Design Pattern Use in Asp.net Core 6 for several days and I thought it would be good to share my experiences while learning it with you. This will surely help you to learn the concepts better
 So let's go
 ========
 Create Human Resource Management System Using Asp.net Core 6 And Use Clean Architecture And SOLID And CQRS Design Pattern
