@@ -1,4 +1,5 @@
 ﻿using HR_Management.Application.Presistence.Contracts;
+using HR_Management.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +8,7 @@ using System.Threading.Tasks;
 
 namespace HR_Management.Application.Persistence.Contracts
 {
-    public interface ILeaveTypeRepository:IGenericRepository<ILeaveTypeRepository>
+    public interface ILeaveTypeRepository : IGenericRepository<LeaveType>
     {
-
     }
 }

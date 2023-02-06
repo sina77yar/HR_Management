@@ -1,5 +1,4 @@
 ﻿using HR_Management.Application.DTOs.Common;
-using HR_Management.Application.DTOs.LeaveType;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace HR_Management.Application.DTOs.LeaveRequest
 {
-    internal class LeaveRequestList:BaseDTO
+    public class ChangeLeaveRequestApprovalDto:BaseDTO
     {
-        public LeaveTypeDto LeaveType { get; set; }
-        public DateTime DateRequested { get; set; }
         public bool? Approved { get; set; }
 
     }

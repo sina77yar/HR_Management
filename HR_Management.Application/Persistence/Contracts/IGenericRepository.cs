@@ -10,7 +10,7 @@ namespace HR_Management.Application.Presistence.Contracts
     {
         Task<T> Get(int id);
         Task<IReadOnlyList<T>> GetAll();
-        Task<T> Insert (T entity);
+        Task<T> Add (T entity);
         Task<T> Update (T entity);
         Task Delete (T entity);
     }
